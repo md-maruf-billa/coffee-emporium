@@ -8,7 +8,7 @@ export default {
     extend: {
       fontFamily: {
         ranco: '"Rancho", "cursive"',
-        common: '"Raleway","sans-serif"'
+        common: "Raleway"
       }
     },
   },

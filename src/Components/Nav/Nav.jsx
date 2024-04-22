@@ -35,7 +35,7 @@ const Nav = () => {
                             </ul>
                         </div>
                         <img className='w-[75px] h-[90px] hidden md:block' src={logo} alt="" />
-                        <a className="text-2xl md:text-6xl font-ranco ">Espresso Emporium</a>
+                        <a className="text-2xl md:text-6xl font-ranco ">Coffee Emporium</a>
                     </div>
                     <div className="navbar-end">
                         <Button size={"text-xs lg:text-2xl"} btnName={"Login Now"}></Button>
