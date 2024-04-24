@@ -4,6 +4,13 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  daisyui: {
+    themes: [
+      "light",
+      "dark", 
+      "dim"
+    ],
+  },
   theme: {
     extend: {
       fontFamily: {
@@ -11,6 +18,7 @@ export default {
         common: "Raleway"
       }
     },
+    
   },
   plugins: [require('daisyui')],
 }
